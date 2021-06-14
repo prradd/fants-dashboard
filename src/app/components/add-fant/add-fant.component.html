@@ -1,0 +1,7 @@
+<form *ngIf="showAddFant" class="add-form" (ngSubmit)="onSubmit()">
+  <div class="form-control">
+    <label for="fantText">Fant</label>
+    <input type="text" name="fantText" [(ngModel)]="fantText" id="fantText" placeholder="Add Fant">
+    <input type="submit" value="Save Fant" class="btn btn-block">
+  </div>
+</form>

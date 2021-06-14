@@ -1,0 +1,6 @@
+<app-add-fant (onAddFant)="addFant($event)"></app-add-fant>
+<app-fant-item
+  *ngFor="let fant of fants"
+  [fant]="fant"
+  (onDeleteFant)="deleteFant(fant)"
+></app-fant-item>
