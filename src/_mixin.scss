@@ -1,0 +1,6 @@
+$font-stack: "Poppins", sans-serif;
+
+@mixin theme($theme: LightGray){
+  background: $theme;
+  color: ThreeDDarkShadow;
+}

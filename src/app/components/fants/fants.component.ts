@@ -6,7 +6,7 @@ import {Fant} from "../../Fant";
 @Component({
   selector: 'app-fants',
   templateUrl: './fants.component.html',
-  styleUrls: ['./fants.component.css']
+  styleUrls: ['./fants.component.scss']
 })
 export class FantsComponent implements OnInit {
 

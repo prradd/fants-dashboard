@@ -6,7 +6,7 @@ import {Subscription} from "rxjs";
 @Component({
   selector: 'app-add-fant',
   templateUrl: './add-fant.component.html',
-  styleUrls: ['./add-fant.component.css']
+  styleUrls: ['./add-fant.component.scss']
 })
 export class AddFantComponent implements OnInit {
   @Output() onAddFant: EventEmitter<Fant> = new EventEmitter();

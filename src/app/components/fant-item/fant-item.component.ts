@@ -5,7 +5,7 @@ import {faTimes} from "@fortawesome/free-solid-svg-icons";
 @Component({
   selector: 'app-fant-item',
   templateUrl: './fant-item.component.html',
-  styleUrls: ['./fant-item.component.css']
+  styleUrls: ['./fant-item.component.scss']
 })
 export class FantItemComponent implements OnInit {
 
